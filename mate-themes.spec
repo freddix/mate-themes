@@ -1,11 +1,11 @@
 Summary:	Default themes for MATE enviroment
 Name:		mate-themes
-Version:	1.6.1
+Version:	1.6.3
 Release:	1
 License:	LGPL
 Group:		Themes
 Source0:	http://pub.mate-desktop.org/releases/1.6/%{name}-%{version}.tar.xz
-# Source0-md5:	b7e818ca2825ff2012c8b681ad6890b6
+# Source0-md5:	6bf73ac10b97f5d2f3ad48cdcb059095
 Patch0:		%{name}-bashizm.patch
 URL:		http://www.mate.org/
 BuildRequires:	autoconf
@@ -62,6 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/themes/AlaDelta
 %{_datadir}/themes/Atantla
 %{_datadir}/themes/BlackMATE
+%{_datadir}/themes/BlueMenta
 %{_datadir}/themes/ContrastHigh
 %{_datadir}/themes/ContrastHighInverse
 %{_datadir}/themes/ContrastHighLargePrint
