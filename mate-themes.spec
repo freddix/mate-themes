@@ -1,11 +1,11 @@
 Summary:	Default themes for MATE enviroment
 Name:		mate-themes
-Version:	1.6.3
+Version:	1.8.0
 Release:	1
 License:	LGPL
 Group:		Themes
-Source0:	http://pub.mate-desktop.org/releases/1.6/%{name}-%{version}.tar.xz
-# Source0-md5:	6bf73ac10b97f5d2f3ad48cdcb059095
+Source0:	http://pub.mate-desktop.org/releases/1.8/%{name}-%{version}.tar.xz
+# Source0-md5:	a29efead861d6eb68fda59e95705c520
 Patch0:		%{name}-bashizm.patch
 URL:		http://www.mate.org/
 BuildRequires:	autoconf
@@ -62,6 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/themes/AlaDelta
 %{_datadir}/themes/Atantla
 %{_datadir}/themes/BlackMATE
+%{_datadir}/themes/BlackMenta
 %{_datadir}/themes/BlueMenta
 %{_datadir}/themes/ContrastHigh
 %{_datadir}/themes/ContrastHighInverse
@@ -72,7 +73,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/themes/Fog
 %{_datadir}/themes/GreenLaguna
 %{_datadir}/themes/Menta
-%{_datadir}/themes/Menta-Black
 %{_datadir}/themes/PrintLarge
 %{_datadir}/themes/Quid
 %{_datadir}/themes/Reverse
@@ -80,7 +80,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/themes/Simply
 %{_datadir}/themes/TraditionalGreen
 %{_datadir}/themes/TraditionalOk
-
 %{_iconsdir}/ContrastHigh
 %{_iconsdir}/ContrastHigh-SVG
 %{_iconsdir}/ContrastHighInverse
