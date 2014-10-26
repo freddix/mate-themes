@@ -1,11 +1,11 @@
 Summary:	Default themes for MATE enviroment
 Name:		mate-themes
-Version:	1.8.0
+Version:	1.8.1
 Release:	1
 License:	LGPL
 Group:		Themes
 Source0:	http://pub.mate-desktop.org/releases/1.8/%{name}-%{version}.tar.xz
-# Source0-md5:	a29efead861d6eb68fda59e95705c520
+# Source0-md5:	5c348c11eb78c0ee0442ee429132d2c7
 Patch0:		%{name}-bashizm.patch
 URL:		http://www.mate.org/
 BuildRequires:	autoconf
